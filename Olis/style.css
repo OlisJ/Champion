@@ -1,18 +1,35 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: serif ;
+    font-family: "Parkinsans", sans-serif;
+
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 #logo{
     height: 90px;
     width: 100px;
+    margin-left: 30px;
 }
 
 .headdiv{
     border-bottom: 1px solid black;
     background-color: #111633;
     height: 90px;
+    
+
 }
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
 .container{
     position: relative;
     text-align: center;
@@ -42,4 +59,144 @@
     font-weight: 200;
    
 }
+ 
+ul{
+    float: right;
+    list-style-type: none;
+    color: white;
+    margin-top: 25px;
+    margin-right: 50px;
+    
+}
+li{
+    float: left;
+    font-size: 20px;
+    padding-right: 40px;
+}
 
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#Book{
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 16px;
+}
+
+.dest{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url(images/albania.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh ;
+}
+
+.alb{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#albdesc{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.destinations-section,
+.promotions-section {
+    padding: 2rem 0;
+
+}
+
+
+.destinations-grid,
+.promotions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+
+}
+
+
+
+.destination-card,
+.promotion-card {
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+
+}
+
+
+
+.destination-card:hover,
+.promotion-card:hover {
+    transform: translateY(-5px);
+
+}
+
+
+
+.destination-card img,
+.promotion-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+
+
+.destination-card h3,
+.promotion-card h3 {
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: #003580;
+
+}
+
+
+
+.promotion-card p {
+    padding: 0 1rem 1rem;
+
+}
+
+.destinations-section{
+    background-color: #111633;
+    color: white;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.card img{
+    height: 200px;
+    width: 200px;   
+}
+
+#partners{
+    color: white;
+    background-color: #111633;
+    
+}
+
+#partners h2{
+    margin-left: 40px;
+}
+
+.cardtxt{
+   
+}

@@ -7,6 +7,7 @@
 
 html{
     scroll-behavior: smooth;
+    background-color: #111633;
 }
 
 #logo{
@@ -177,26 +178,90 @@ a{
     color: white;
 }
 
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin-left: 40px;
-    margin-top: 40px;
-}
-.card img{
-    height: 200px;
-    width: 200px;   
-}
 
 #partners{
     color: white;
     background-color: #111633;
+    margin-top: 20px;
     
 }
 
-#partners h2{
-    margin-left: 40px;
-}
-
-.cardtxt{
+.part{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url(images/a-photo-of-a-meeting-between-leaders-of-two-compan-aIz4c9TiRLG5Tql7wNDQZg-Hw84ORc9Q6Kj_AEDi-ItKg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh ;
    
 }
+
+.partners{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#partdes{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.fern{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url(images/a-photo-of-a-group-of-corporate-partners-in-a-boar-y5M4dwQsRDqJxfnzWLe-1w-SPkRyaRpT0OtCb1mj9PG0Q.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh ;
+}
+
+.wayer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#wayerdesc{
+    font-weight: 700;
+    font-size: 60px;
+    
+}
+
+.team{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url(images//a-photo-of-a-company-team-standing-in-front-of-a-b-naeGNMG3TF2M8PEDWWqchg-OWng678xSKC7Fx89Ouhnog.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh ;
+}
+
+.abus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.team .abus #abusdesc{
+    font-weight: 400;
+    font-size: 30px;
+    backdrop-filter: blur(15px);
+    border: 1px solid black opacity(.3);
+    border-radius: 25px;
+    padding: 14px;
+
+}
+

@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+
+    
 </head>
 <body>
     <header>
@@ -16,7 +19,7 @@
             <ul>
                 <li><a href="#desti">Destinations</a></li>
                 <li><a href="#partners">Partners</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="#aboutus">About Us</a></li>
                 <li ><a href="" id="Book">Voyage</a></li>
             </ul>
         </div>
@@ -24,20 +27,20 @@
     </header>
     <div class="container">
         <div class="center">
-            <h1 id="name">Meet Voyage</h1>
-            <p id="txt">Your all-in-one AI travel expert that turns exploring the world into a seamless, personalized experience. With Voyage, you'll get custom itineraries, insider tips, and real-time updates, all tailored to your unique travel style. Whether you're chasing thrills, culture, or relaxation, Voyage helps you discover new destinations, plan like a pro, and travel smarter.</p>
+            <h1 id="name" class="cssanimation leFadeInLeft sequence " >Meet Voyage</h1>
+            <p id="txt" class="cssanimation fadeInRight">Your all-in-one AI travel expert that turns exploring the world into a seamless, personalized experience. With Voyage, you'll get custom itineraries, insider tips, and real-time updates, all tailored to your unique travel style. Whether you're chasing thrills, culture, or relaxation, Voyage helps you discover new destinations, plan like a pro, and travel smarter.</p>
         </div>
     </div>
     <section id="desti">
         <div class="dest" >
-            <div class="alb"><h1 id="albdesc">TRAVEL TO ALBANIA</h1></div>
+            <div class="alb"><h1 id="albdesc" class="cssanimation effect3d">TRAVEL TO ALBANIA</h1></div>
         </div>
     </section>
    
     <section class="destinations-section">
 
         <h2>Popular Destinations</h2>
-
+        <marquee scrollamount="20">
         <div class="destinations-grid">
             <div class="destination-card">
                <img src="images/tirana.jpeg" >
@@ -59,19 +62,74 @@
                 <h3>Berat</h3>
             </div>
         </div>
+    </marquee>
     </section>
 
     <section id="partners">
-        <h2 >Our Partners</h2>
-        <div class="card">
-            <img src="images/a-hotel-logo-with-the-text-grand-oasis-hotel-in-la-Qh3pbwiXTDW-uauBVosGdQ-JOFLNwfDQP-y_Q3MkuDT6Q.jpeg" alt="">
-            <div class="cardtxt">
-                <h4>Hotel Oasis</h4>
-                <p>Lorem ipsum dolor sit amet.</p>
+        <div class="part" >
+            <div class="partners"><h1 id="partdes">Partners</h1></div>
+        </div>
+    </section>
+    
+    <section class="destinations-section">
+        <h2>Our Partners</h2>
+        <marquee scrollamount="20">
+        <div class="destinations-grid">
+            <div class="destination-card">
+               <img src="images/a-hotel-logo-with-the-text-grand-oasis-hotel-in-la-Qh3pbwiXTDW-uauBVosGdQ-JOFLNwfDQP-y_Q3MkuDT6Q.jpeg" >
+                <h3>Grand Oasis</h3>
             </div>
+
+            <div class="destination-card">
+                    <img src="images/an-illustration-of-a-hotel-logo-with-a-large-h-for-y9vvRquMRZiI47LckEOhYA-JOFLNwfDQP-y_Q3MkuDT6Q.jpeg" alt="">
+                <h3>Hidro Hotel</h3>
+            </div>
+
+            <div class="destination-card">
+                <img src="images/a-logo-for-a-hotel-in-albania-the-logo-features-a--UpRRKHbLRee3HANLiDoA6Q-imaJc5_zRdyUfFMCBVX8jQ.jpeg" alt="">
+                <h3>Hotel Albania</h3>
+            </div>
+
+            <div class="destination-card">
+                <img src="images/a-hotel-logo-with-a-large-stylized-h-with-a-crown--D3OibvPnQ_iLM5dXDgR_tA-jemic3RGRD-CldHDBFEAig.jpeg" alt="">
+                <h3>Grand Hotel</h3>
+            </div>
+        </div>
+    </marquee>
+    </section>
+
+
+    <section id="aboutus">
+        <div class="fern" >
+            <div class="wayer"><h1 id="wayerdesc">About Us</h1></div>
+        </div>
+    </section><br>
+    
+
+    <section>
+        <div class="team" >
+            <div class="abus"><p id="abusdesc" class="cssanimation fadeInRight">At Fern Wayer, we are passionate about transforming the way people explore the world. Our cutting-edge AI, Voyage, is designed to make travel planning seamless, personalized, and more intuitive than ever before. Whether you're looking for the best hidden gems, tailored itineraries, or real-time recommendations, Voyage is your perfect travel companion, guiding you to unforgettable experiences. With a focus on sustainability, convenience, and customization, Fern Wayer is redefining the future of travel—empowering adventurers to discover new destinations, cultures, and memories with ease. Let us help you navigate the world, one journey at a time.
+
+            </p></div>
         </div>
     </section>
 
     
+
+
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
+
+    <!-- Start of ChatBot (www.chatbot.com) code -->
+<script>
+    window.__ow = window.__ow || {};
+    window.__ow.organizationId = "0730d7a5-8b3f-4d03-bdcb-b7ddd279675f";
+    window.__ow.template_id = "65cdb12b-364a-4778-9547-5e922d45b407";
+    window.__ow.integration_name = "manual_settings";
+    window.__ow.product_name = "chatbot";   
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[OpenWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.openwidget.com/openwidget.js",t.head.appendChild(n)}};!n.__ow.asyncInit&&e.init(),n.OpenWidget=n.OpenWidget||e}(window,document,[].slice))
+  </script>
+  <noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
+  <!-- End of ChatBot code -->
 </body>
-</html>
+</html> 
